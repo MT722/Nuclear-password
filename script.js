@@ -29,8 +29,8 @@ function generatePassword()
   var password1 = "";
 
   var characters = prompt("enter your desired charaacters(s for special, l for lower, u for upper, and n for number");//prompts user to enter password characters
-  var pLength = parseInt(prompt("enter your password length"),10);//password has been generated. 
-  console.log(pLength);
+  var pLength = parseInt(prompt("enter your password length"), 10);//password has been generated. 
+
 
   var specialFinder = "";
   var numberFinder = "";
@@ -61,16 +61,16 @@ function generatePassword()
        console.log(lowerFinder);
     }
 
-    if(!(characters.indexOf("s")>=0) || !(characters.indexOf ("n")>=0) ||!(characters.indexOf("u")>=0) ||!(characters.indexOf ("l")>=0)){//checks for invalid input
+    if((characters.indexOf("s")<0) && (characters.indexOf ("n")<0) && (characters.indexOf("u")<0) && (characters.indexOf ("l")<0)){//checks for invalid input
       alert("!invalid input");
       
     }
-    if(length>128 || length<8){
-      alert("!invalid input");
+    if(pLength>128 || pLength<8){
+      alert("!invalid length");
     }
 
     tempPassword += (specialFinder.concat(numberFinder).concat(upperFinder).concat(lowerFinder));
-    console.log(tempPassword);
+
   //cut down new arrays
 
    for(var i = 0; i<pLength; i++){
