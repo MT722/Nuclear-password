@@ -69,24 +69,15 @@ function generatePassword()
       alert("!invalid length");
     }
 
+    //concats tempPassword to hold all desired char types
     tempPassword += (specialFinder.concat(numberFinder).concat(upperFinder).concat(lowerFinder));
 
-  //cut down new arrays
+  
+  for(var i = 0; i<pLength; i++){//iterates through password length
 
-  //  for(var i = 0; i<pLength; i++){
-  //    use math.random method to populate 'specials'
-  //  assign arrays to password.
-  //    password1 += tempPassword.charAt(i);
-  //      for(var j = pLength-1; j>=0 ;j--){}
-    
-  //  }
+  if(tempPassword.charAt(i) == undefined){//
 
- //populates password1 with temppassword
-  for(var i = 0; i<pLength; i++){
-
-  if(tempPassword.charAt(i) == undefined){
-
-    for(var j = 0; j<tempPassword.length; j++){
+    for(var j = 0; j<tempPassword.length; j++){//reuses tempPassword's values
       password1 += tempPassword.charAt(j);
     }
 
@@ -96,13 +87,13 @@ function generatePassword()
 
   console.log(password1);
   
-  if(password1.length>pLength){
+  if(password1.length>pLength){//cuts down password if it is too long
     password1.pop();
     return password1;
   }
     
   }
-  return password1;
+  return password1;//funciton output
 
  
   

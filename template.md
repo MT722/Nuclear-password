@@ -3,10 +3,7 @@
 This program is made for the sole purpose of designing a simple, yet secure password of your choosing. The program produces a password with a length of at least 8 characters, with no more than 126 characters. It may contain lower/upper case letter(s(), number(s), or special keyboard character(s). 
 
 
-
-
 ### Installing
-
 
 
 In order to recreate this work, the following software may be downloaded. 
@@ -25,6 +22,10 @@ After downloading and initializing these things, run and intialize their setting
 
 * [See Live Site](https://mt722.github.io/Nuclear-password/)
 * [See github repo](https://github.com/MT722/Nuclear-password)
+
+
+## Code snippets
+
 
 
 ## Authors
