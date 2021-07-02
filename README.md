@@ -27,6 +27,8 @@ After downloading and initializing these things, run and intialize their setting
 ## Code snippets
 ![Image of password function](./codeSnippet.png)
 
+## Program Gif
+![gif](./password.gif)
 
 ## Authors
 

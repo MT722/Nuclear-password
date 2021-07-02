@@ -72,7 +72,6 @@ function generatePassword()
     //concats tempPassword to hold all desired char types
     tempPassword += (specialFinder.concat(numberFinder).concat(upperFinder).concat(lowerFinder));
 
-  
   for(var i = 0; i<pLength; i++){//iterates through password length
 
   if(tempPassword.charAt(i) == undefined){//
@@ -84,7 +83,6 @@ function generatePassword()
   }
   password1 += tempPassword.charAt(i);
   
-
   console.log(password1);
   
   if(password1.length>pLength){//cuts down password if it is too long
