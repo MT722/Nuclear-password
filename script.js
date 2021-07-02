@@ -82,7 +82,7 @@ function generatePassword()
   //  }
 
  //populates password1 with temppassword
-for(var i = 0; i<pLength; i++){
+  for(var i = 0; i<pLength; i++){
 
   if(tempPassword.charAt(i) == undefined){
 
@@ -92,21 +92,18 @@ for(var i = 0; i<pLength; i++){
 
   }
   password1 += tempPassword.charAt(i);
-
-if(tempPassword.length>pLength){
-  password1.pop();
-}
-
-
-
-
-   
+  
 
   console.log(password1);
   
-  
-  
+  if(password1.length>pLength){
+    password1.pop();
+    return password1;
+  }
     
   }
   return password1;
+
+ 
+  
 }

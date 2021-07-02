@@ -1,37 +1,19 @@
-# Project Title
+# Nuclear-Password
 
-One paragraph of project description goes here.
+This program is made for the sole purpose of designing a simple, yet secure password of your choosing. The program produces a password with a length of at least 8 characters, with no more than 126 characters. It may contain lower/upper case letter(s(), number(s), or special keyboard character(s). 
 
-## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development environment running.
 
-Say what the step will be:
 
-```
-Give the example
-```
+In order to recreate this work, the following software may be downloaded. 
+- [VS Code](https://code.visualstudio.com/download)
+- [git](https://git-scm.com/downloads)
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
+After downloading and initializing these things, run and intialize their settings to match your machine requirements.
 
 ## Built With
 
@@ -41,18 +23,17 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Deployed Link
 
-* [See Live Site](#)
+* [See Live Site](https://mt722.github.io/Nuclear-password/)
+* [See github repo](https://github.com/MT722/Nuclear-password)
 
 
 ## Authors
 
-* **YOUR NAME** 
+* **Matthew To** 
 
-- [Link to Portfolio Site](#)
-- [Link to Github](https://github.com/)
-- [Link to LinkedIn](https://www.linkedin.com/)
+- [Link to Github](https://github.com/MT722)
+- [Link to LinkedIn](https://www.linkedin.com/in/matthew-to-53667a187/)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
@@ -60,6 +41,4 @@ This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code, libraries, packages, or UI was used  / inspired from
-* Inspiration
-* etc
+* Vanilla Javascript
